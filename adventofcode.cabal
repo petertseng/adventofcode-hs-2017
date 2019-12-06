@@ -37,3 +37,9 @@ executable 12_connected_groups
   hs-source-dirs: bin
   main-is:        12_connected_groups.hs
   ghc-options:    -Wall
+
+executable 18_duet
+  build-depends:  base, adventofcode2017, array, containers
+  hs-source-dirs: bin
+  main-is:        18_duet.hs
+  ghc-options:    -Wall

@@ -30,4 +30,4 @@ None yet.
 
 ### Closing Thoughts
 
-None yet.
+Even when knot-tying is not directly possible, passing back a function that allows the function to pick up where it left off is a very interesting pattern.
