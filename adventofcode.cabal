@@ -72,3 +72,8 @@ executable 06_mancala
   import: bin, flags
   build-depends: base, adventofcode2017, containers
   main-is:       06_mancala.hs
+
+executable 07_balancing_discs
+  import: bin, flags
+  build-depends: base, adventofcode2017, aocsplit, containers
+  main-is:       07_balancing_discs.hs
