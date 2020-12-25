@@ -18,3 +18,9 @@ library aocsplit
   exposed-modules: AdventOfCode.Split
   ghc-options:     -Wall
   build-depends:   base
+
+executable 07_balancing_discs
+  build-depends:  base, adventofcode2017, aocsplit, containers
+  hs-source-dirs: bin
+  main-is:        07_balancing_discs.hs
+  ghc-options:    -Wall
