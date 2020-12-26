@@ -24,3 +24,9 @@ executable 07_balancing_discs
   hs-source-dirs: bin
   main-is:        07_balancing_discs.hs
   ghc-options:    -Wall
+
+executable 09_stream_of_garbage
+  build-depends:  base, adventofcode2017
+  hs-source-dirs: bin
+  main-is:        09_stream_of_garbage.hs
+  ghc-options:    -Wall
