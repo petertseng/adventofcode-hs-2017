@@ -43,3 +43,11 @@ executable 18_duet
   hs-source-dirs: bin
   main-is:        18_duet.hs
   ghc-options:    -Wall
+
+executable 24_dominoes
+  -- Only actually uses containers and not array,
+  -- but leaving array in to easily compare perf of arrays for this problem.
+  build-depends:  base, adventofcode2017, aocsplit, array, containers
+  hs-source-dirs: bin
+  main-is:        24_dominoes.hs
+  ghc-options:    -Wall
