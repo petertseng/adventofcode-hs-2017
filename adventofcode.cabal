@@ -30,3 +30,10 @@ executable 09_stream_of_garbage
   hs-source-dirs: bin
   main-is:        09_stream_of_garbage.hs
   ghc-options:    -Wall
+
+executable 12_connected_groups
+  -- nubInt added in containers 0.6.0.1
+  build-depends:  base, adventofcode2017, array, containers >= 0.6.0.1
+  hs-source-dirs: bin
+  main-is:        12_connected_groups.hs
+  ghc-options:    -Wall
