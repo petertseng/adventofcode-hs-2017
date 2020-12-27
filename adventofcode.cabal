@@ -47,6 +47,12 @@ library aocsplit
   exposed-modules: AdventOfCode.Split
   build-depends:   base
 
+library aocunionfind
+  import: flags
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.UnionFind
+  build-depends:   base, array
+
 executable 01_equal_to_next
   import: bin, flags
   build-depends: base, adventofcode2017
@@ -103,3 +109,8 @@ executable 11_hex_grid
   import: bin, flags
   build-depends: base, adventofcode2017, aocsplit
   main-is:       11_hex_grid.hs
+
+executable 12_connected_groups
+  import: bin, flags
+  build-depends: base, adventofcode2017, aocunionfind
+  main-is:       12_connected_groups.hs
