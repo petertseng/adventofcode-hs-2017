@@ -60,3 +60,10 @@ executable 04_passphrases
   import: bin, flags
   build-depends: base, adventofcode2017, containers
   main-is:       04_passphrases.hs
+
+executable 05_cpu_jump
+  import: bin, flags
+  -- Only actually uses array and not containers,
+  -- but leaving the latter in to easily compare perf for this problem.
+  build-depends: base, adventofcode2017, array, containers
+  main-is:       05_cpu_jump.hs
