@@ -67,3 +67,8 @@ executable 05_cpu_jump
   -- but leaving the latter in to easily compare perf for this problem.
   build-depends: base, adventofcode2017, array, containers
   main-is:       05_cpu_jump.hs
+
+executable 06_mancala
+  import: bin, flags
+  build-depends: base, adventofcode2017, containers
+  main-is:       06_mancala.hs
