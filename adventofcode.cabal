@@ -114,3 +114,8 @@ executable 12_connected_groups
   import: bin, flags
   build-depends: base, adventofcode2017, aocunionfind
   main-is:       12_connected_groups.hs
+
+executable 13_packet_scanners
+  import: bin, flags
+  build-depends: base, adventofcode2017
+  main-is:       13_packet_scanners.hs
