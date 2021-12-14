@@ -143,3 +143,8 @@ executable 18_duet
   import: bin, flags
   build-depends: base, adventofcode2017, array, containers
   main-is:       18_duet.hs
+
+executable 19_routing_diagram
+  import: bin, flags
+  build-depends: base, adventofcode2017, array
+  main-is:       19_routing_diagram.hs
