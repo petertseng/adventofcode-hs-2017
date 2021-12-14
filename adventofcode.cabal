@@ -124,3 +124,8 @@ executable 14_disk_defrag
   import: bin, flags
   build-depends: base, aocknothash, aocunionfind, containers, directory
   main-is:       14_disk_defrag.hs
+
+executable 15_dueling_generators
+  import: bin, flags
+  build-depends: base
+  main-is:       15_dueling_generators.hs
