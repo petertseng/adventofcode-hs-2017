@@ -129,3 +129,8 @@ executable 15_dueling_generators
   import: bin, flags
   build-depends: base
   main-is:       15_dueling_generators.hs
+
+executable 16_permutation_promenade
+  import: bin, flags
+  build-depends: base, adventofcode2017, aocsplit, containers
+  main-is:       16_permutation_promenade.hs
