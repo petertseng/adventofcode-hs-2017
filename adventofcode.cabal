@@ -150,3 +150,8 @@ executable 19_routing_diagram
   -- !? added in array 0.5.6.0
   build-depends: base, adventofcode2017, array >= 0.5.6.0
   main-is:       19_routing_diagram.hs
+
+executable 20_particle_swarm
+  import: bin, flags
+  build-depends: base, adventofcode2017, aocsplit
+  main-is:       20_particle_swarm.hs
