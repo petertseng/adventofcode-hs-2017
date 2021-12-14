@@ -149,3 +149,8 @@ executable 19_routing_diagram
   import: bin, flags
   build-depends: base, adventofcode2017, array
   main-is:       19_routing_diagram.hs
+
+executable 20_particle_swarm
+  import: bin, flags
+  build-depends: base, adventofcode2017, aocsplit
+  main-is:       20_particle_swarm.hs
