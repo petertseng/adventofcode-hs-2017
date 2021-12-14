@@ -134,3 +134,8 @@ executable 16_permutation_promenade
   import: bin, flags
   build-depends: base, adventofcode2017, aocsplit, containers
   main-is:       16_permutation_promenade.hs
+
+executable 17_spinlock
+  import: bin, flags
+  build-depends: base, containers
+  main-is:       17_spinlock.hs
