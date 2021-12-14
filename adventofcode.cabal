@@ -50,3 +50,8 @@ executable 02_spreadsheet
   import: bin, flags
   build-depends: base, adventofcode2017
   main-is:       02_spreadsheet.hs
+
+executable 03_spiral_matrix
+  import: bin, flags
+  build-depends: base, containers
+  main-is:       03_spiral_matrix.hs
