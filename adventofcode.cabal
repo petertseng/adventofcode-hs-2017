@@ -77,3 +77,8 @@ executable 07_balancing_discs
   import: bin, flags
   build-depends: base, adventofcode2017, aocsplit, containers
   main-is:       07_balancing_discs.hs
+
+executable 08_inc_dec_if
+  import: bin, flags
+  build-depends: base, adventofcode2017, containers
+  main-is:       08_inc_dec_if.hs
