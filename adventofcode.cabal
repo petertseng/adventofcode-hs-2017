@@ -35,6 +35,12 @@ library
   exposed-modules: AdventOfCode
   build-depends:   base
 
+library aocknothash
+  import: flags
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.KnotHash
+  build-depends:   base, containers
+
 library aocsplit
   import: flags
   hs-source-dirs:  lib
@@ -87,3 +93,8 @@ executable 09_stream_of_garbage
   import: bin, flags
   build-depends: base, adventofcode2017
   main-is:       09_stream_of_garbage.hs
+
+executable 10_knot_hash
+  import: bin, flags
+  build-depends: base, adventofcode2017, aocknothash, aocsplit
+  main-is:       10_knot_hash.hs
