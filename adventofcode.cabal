@@ -119,3 +119,8 @@ executable 13_packet_scanners
   import: bin, flags
   build-depends: base, adventofcode2017
   main-is:       13_packet_scanners.hs
+
+executable 14_disk_defrag
+  import: bin, flags
+  build-depends: base, aocknothash, aocunionfind, containers, directory
+  main-is:       14_disk_defrag.hs
